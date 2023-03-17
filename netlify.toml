@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  functions = "netlify/functions"
+  publish = "build"
+
+[dev]
+  command = "npm start"
+  publish = "public"
+  functions = "functions/"
+  Port = 8888
+  functionsPort = 8080
+  [[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200

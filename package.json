@@ -1,6 +1,6 @@
 {
   "name": "ukmc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,7 +19,7 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "cross-env REACT_APP_DEV_ENV=development react-scripts start",
+    "start": "cross-env NETLIFY_DEV=true react-scripts start",
     "build": "react-scripts build"
   },
   "eslintConfig": {
