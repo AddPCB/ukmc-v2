@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+MCUK - Online Social Club for UK Legal Medical Cannabis Patients & Caregivers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DISCLAIMER: This project is currently a proof of concept and not yet a live community.
 
-## Available Scripts
+Problem Domain:
+The legalisation of medical cannabis in the UK has created a growing need for a community platform that can provide support and resources for medical cannabis patients and caregivers. However, there is a lack of community platforms specifically designed for this purpose.
 
-In the project directory, you can run:
+User Stories:
 
-### `npm start`
+    As a medical cannabis patient in the UK, I want to connect with other patients and caregivers to share information and support.
+    As a caregiver for a medical cannabis patient in the UK, I want to connect with other caregivers to share information and support.
+    As a medical cannabis patient in the UK, I want to stay up-to-date on the latest developments in medical cannabis and related events in my area.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Solution:
+MCUK is an online social club for UK legal medical cannabis patients and their caregivers. The site aims to provide a community platform where patients and caregivers can connect, share information and support, and stay up-to-date on the latest developments in medical cannabis in the UK.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Key Features:
 
-### `npm test`
+    OAuth login and user account creation, allowing users to leave comments and apply for club membership.
+    Integration with CanCard to verify users' eligibility for membership.
+    Links to community Discord, subreddit, and Mastodon server to encourage further community engagement.
+    A news and events section, to keep users up-to-date on the latest developments in medical cannabis in the UK.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Future Goals:
 
-### `npm run build`
+    User-generated content and resources, such as articles, reviews, and guides.
+    Events calendar and event hosting.
+    Resources and support for navigating the legal and medical landscape of medical cannabis in the UK.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MCUK is a proof of concept and currently under development by a solo developer. The project will be licensed under the MIT License and will adhere to best practices for Git and GitHub workflow
