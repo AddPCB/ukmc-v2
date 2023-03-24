@@ -4,12 +4,12 @@
   flex: 1 1 100%;
 }
 .logos {
+  z-index:1;
   object-fit: contain;
   object-position: left;
-  position: relative;
-  top: 0.6px;
+  margin-bottom:-0.7px;
   max-height: 25vh;
-  max-width: 100vw;
+  max-width: 80vw;
   min-width: 360px;
 }
 .navbox {
@@ -71,6 +71,7 @@
   text-shadow: 0.15rem 0.15rem 0.3rem #222;
 }
 .user-container {
+  min-width:max-content;
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.2);

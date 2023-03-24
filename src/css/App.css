@@ -78,7 +78,9 @@ footer {
       "events"
       "main";
   }
-
+  .logos {
+    max-width: 100vw;
+  }
   .events-calendar {
     max-height: 25vh;
     overflow-y: auto;
