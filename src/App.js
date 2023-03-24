@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
@@ -8,16 +9,14 @@ import Guide from "./components/Guide";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Account from "./components/Account";
-import Logout from "./components/Logout";
-import { AuthProvider } from './contexts/AuthContext';
-import "bootstrap/dist/css/bootstrap.min.css";
+import Privacy from "./components/Privacy";
 import "./css/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
       <Router>
-        <AuthProvider />
         <Header />
         <div className="Main">
           <Routes>
@@ -29,7 +28,7 @@ function App() {
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/account" element={<Account />} />
-            <Route exact path="/logout" element={<Logout />} />
+            <Route exact path="/privacy" element={<Privacy />} />
           </Routes>
         </div>
         <Footer />

@@ -1,0 +1,20 @@
+service: ukmcServ
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  app:
+    handler: api/handler.app
+    events:
+      - http:
+          path: /
+          method: any
+
+custom:
+  serverless-offline:
+    httpPort: 8080 # Set the port number you want to use here

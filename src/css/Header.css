@@ -1,0 +1,133 @@
+.logosbox {
+  grid-row: 1;
+  display: flex;
+  flex: 1 1 100%;
+}
+.logos {
+  object-fit: contain;
+  object-position: left;
+  position: relative;
+  top: 0.6px;
+  max-height: 25vh;
+  max-width: 100vw;
+  min-width: 360px;
+}
+.navbox {
+  width: 100vw;
+  min-width: 360px;
+  padding: 0.4rem 0.2rem;
+  grid-row: 2;
+  flex: 1 1 100%;
+  flex-wrap: wrap;
+  background-image: url(/public/navbg.png);
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: first baseline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  color: powderblue;
+}
+.tagbar {
+  display: flex;
+  flex: 1 1 40%;
+  justify-content: center;
+  min-width: max-content;
+  font-weight: bold;
+}
+.tagbar .w {
+  color: #fff;
+}
+.tagbar .pb {
+  padding: 0 0.5rem;
+}
+
+.Navbar,
+.navbar,
+.navbar-nav {
+  display: flex;
+  flex: 2 2 40%;
+  align-items: center;
+  justify-content: space-around;
+}
+.user-container a,
+.navbar-nav a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  letter-spacing: 0.05rem;
+  font-size: 1.9rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  color: powderblue;
+  text-shadow: 0.15rem 0.15rem 0.3rem #222;
+  padding: 0 0.3rem;
+}
+
+.navbar-nav a:active {
+  color: lightsteelblue;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0.15rem 0.15rem 0.3rem #222;
+}
+.user-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.7rem;
+  padding: 0;
+}
+
+.profile-icon {
+  font-size: 1.5rem;
+}
+
+.user-name {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+.error-message {
+  color: red;
+  margin-top: 0.5rem;
+  position: absolute;
+  z-index: 1000;
+}
+.dropdown-toggle,
+.logout-btn {
+  display: flex;
+  border-radius: 1rem;
+  border: 0;
+  box-shadow: 0.15rem 0.15rem 0.2rem #222;
+  background-color: powderblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  font-style: italic;
+  text-decoration: none;
+  color: #101010;
+  min-width: max-content;
+  align-items: center;
+  padding: 0 0.6rem 0 0.2rem;
+}
+
+.user-container .profile-icon:hover,
+.user-container a:hover,
+.navbar-nav a:hover {
+  color: #fff;
+}
+.dropdown-menu.show {
+  position: relative !important;
+  inset: unset !important;
+  transform: unset !important;
+}
+.firebaseui-card-content {
+  padding: 0 0.3rem !important;
+}
+
+.dropdown-menu.show .firebaseui-container {
+  position: absolute;
+  width: max-content;
+  box-sizing: border-box;
+  right: 0;
+  top: 0;
+}
