@@ -1,5 +1,5 @@
 const axios = require("axios");
-const admin = require("../firebaseAdmin");
+const admin = require("../firebaseadmin");
 
 const loginHandler = async (req, res) => {
   const { idToken } = req.body;

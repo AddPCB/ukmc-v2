@@ -1,12 +1,12 @@
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
+  functions = "api/"
   publish = "build"
 
 [dev]
   command = "npm start"
   publish = "public"
-  functions = "functions/"
+  functions = "api/"
   Port = 8888
   functionsPort = 8080
   [[redirects]]
