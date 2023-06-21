@@ -1,4 +1,4 @@
-# MCUK - Online Social Club for UK Legal Medical Cannabis Patients & Caregivers
+# UKMC - Online Social Club for UK Legal Medical Cannabis Patients & Caregivers
 
 ## DISCLAIMER: This project is currently a proof of concept and not yet a live community
 
@@ -14,7 +14,7 @@ The legalisation of medical cannabis in the UK has created a growing need for a 
 
 ### Solution
 
-MCUK is an online social club for UK legal medical cannabis patients and their caregivers. The site aims to provide a community platform where patients and caregivers can connect, share information and support, and stay up-to-date on the latest developments in medical cannabis in the UK.
+UKMC is an online social club for UK legal medical cannabis patients and their caregivers. The site aims to provide a community platform where patients and caregivers can connect, share information and support, and stay up-to-date on the latest developments in medical cannabis in the UK.
 
 ### Key Features
 
@@ -31,4 +31,4 @@ MCUK is an online social club for UK legal medical cannabis patients and their c
 
 ### License & community status
 
-MCUK is a proof of concept and currently under development by a solo developer. The project will be licensed under the MIT License and will adhere to best practices for Git and GitHub workflow
+UKMC is a proof of concept and currently under development by a solo developer. The project will be licensed under the MIT License and will adhere to best practices for Git and GitHub workflow
